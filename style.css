@@ -1,0 +1,164 @@
+/* General text color */
+.txtcolor {
+  color: #3E2723;
+}
+
+/* Hero section */
+.main1 {
+  background-color: #FFC045;
+  min-height: 690px;
+  width: 100%;
+  padding: 20px;
+}
+
+.logo1 {
+  max-width: 180px;
+}
+
+.express {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3E2723;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 16px;
+  font-weight: bolder;
+}
+
+.text1 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  border: dashed;
+  color: #3E2723;
+}
+
+.text2 {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: #3E2723;
+}
+
+.text3 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #3E2723;
+}
+
+/* Promotions */
+.BurgerImage1 {
+  background-image: url('images/BurgerImage1.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.BurgerImagetext1 {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.BurgerImagetext2 {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+/* Section headings */
+.p1 {
+  color: #3E2723;
+  font-weight: bold;
+}
+
+.p2 {
+  font-weight: bolder;
+  color: #3E2723;
+}
+
+.p3 {
+  color: #3E2723;
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Buttons */
+.order {
+  background-color: #D50000;
+  border: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.order:hover {
+  font-weight: bolder;
+  background-color: #B71C1C;
+  color: white;
+}
+
+/* Reservation form */
+.tableForm {
+  margin: auto;
+}
+
+form input,
+form button {
+  border-radius: 8px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 992px) {
+  .express {
+    font-size: 16px;
+    text-align: center;
+  }
+  .text2 {
+    font-size: 2.5rem;
+  }
+  .text3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo1 {
+    max-width: 140px;
+  }
+  .text1 {
+    font-size: 1rem;
+  }
+  .text2 {
+    font-size: 2rem;
+  }
+  .text3 {
+    font-size: 1.4rem;
+  }
+  .p3 {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .express {
+    font-size: 14px;
+  }
+  .menu li {
+    margin: 8px 0;
+    display: block;
+    text-align: center;
+  }
+  .text2 {
+    font-size: 1.8rem;
+  }
+  .text3 {
+    font-size: 1.2rem;
+  }
+}
